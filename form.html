@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Non-Semantic Tags (Span & div)--> 
+
+    <span>Merry Christmas</span><br><!--Inclined tag written in one line-->
+    <span>Merry Christmas</span>
+    <div>2023</div><!--Block elements-->
+
+    <div style="border: 2px solid red;" >Happy December</div>
+    <div style="border: 2px solid blue;" >Happy December</div>
+    <div style="border: 2px solid green;" >Happy December Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste exercitationem explicabo voluptatum facere pariatur distinctio. Voluptatum consectetur voluptates aliquid minima ipsam sunt unde rerum, deleniti sint tenetur a temporibus alias.</div><br><hr>
+    
+    <div id="navbar">
+        THIS IS MY NAVBAR<!--To give individual div section a color we use id-->
+    </div>
+    <div id="Section 1" class="sections" > <!--id should be unique of each div tag-->
+        THIS IS MY HOME SECTION
+    </div>
+    <div id="Section 2" class="sections">
+        THIS IS MY HOME SECTION
+    </div>
+
+
+    <div id="footer">
+        THIS IS MY FOOTER
+    </div><hr>
+   
+
+
+    <!--Semantic Tags-->
+    
+    <header>
+        HOME
+    </header>
+
+    <section><hr>SECTION 1</section></section><hr>
+
+    <article>
+        This is the first paragraph of my article    </article>
+
+     <form action="">
+        <h1>CONTACT US</h1> <!--heading (h1-h6) can be put inside as well as outside of Form tag-->
+        <form action="app.js" method="POST">
+        <div>Name: <input placeholder="Enter Your name" required type="text" name="username" id="name"></div>
+        <div>Email: <input  placeholder="Enter Your email" required type="email" name="useremail" id="email"></div>
+        <!--To put this blockbox as a block element we can add heading or paragraph tag but it seems weird so add div tag which is common & best in use-->
+        <div> Message: <textarea placeholder="Enter Your message" required name="usermessage" id="message" cols="15" rows="10"></textarea></div>
+        <div> Number: <input placeholder="Enter Your number" required type="number" name="usernumber" id="number"></div>
+        <div>Gender:<select required name="usergender" id="gender">
+            <option value="male">Choose One</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="transgender">Transgender</option>
+            <option value="others">Others</option>
+
+        </select></div>
+<div>
+        Frontend: <input type="checkbox" name="skills" id="frontend">
+        Backend : <input type="checkbox" name="skills" id="backend">
+    </div>
+    <fieldset><!--it is use to make box-->
+        <legend>Mode of payment</legend><!--same like fieldset it create separate block-->
+    Cash: <input type="radio" name="payment" id="cash">
+    Bank: <input type="radio" name="payment" id="bank">
+</fieldset>
+
+Password:<input type="password" name="password" id="password">
+<input type="file" name="file" id="file">
+<input type="submit" value="Submit">
+     </form>   
+   
+</body>
+</html>

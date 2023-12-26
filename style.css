@@ -1,0 +1,34 @@
+/*h1{
+    color:aliceblue;
+}
+
+p{
+    background-color: brown;
+    color:aliceblue;
+}
+*/
+
+/* h1 & p are elements type selectors here*/
+
+/* Here *{ is universal selector which include all elements of html like head & body and convert all elements in same colour*/
+
+    /*
+*{
+    color:aquamarine;
+    background-color: bisque;
+}
+
+/*To change 
+h1{
+    color:rgb(61, 215, 61);
+}
+
+p{
+    color:blueviolet;
+}
+*/
+
+/*. (dot)here means class*/
+.custom{
+    color:orange;
+}
